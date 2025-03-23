@@ -6,7 +6,11 @@ const nextConfig = {
     turbo: {
       enabled: true
     }
-  }
+  },
+  output: 'standalone',
+  images: {
+    domains: ['localhost'],
+  },
 };
 
 module.exports = nextConfig; 
